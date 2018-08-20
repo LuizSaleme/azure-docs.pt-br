@@ -90,7 +90,7 @@ A tabela a seguir o ajudará a entender como selecionar a configuração ideal d
 
 A instância gerenciada está disponível em duas camadas de serviço:
 - **Uso geral**: projetado para aplicativos com disponibilidade típica e requisitos de latência de E/S comuns.
-- **Uso geral**: projetado para aplicativos com disponibilidade típica e requisitos de latência de E/S comuns.
+- **Negócio crítico**: Projetado para aplicativos com alta disponibilidade e baixos requisitos de latência de E/S.
  
 > [!IMPORTANT]
 > Não há suporte para alterar sua camada de serviço de uso geral para Comercialmente Crítico ou vice-versa em visualização pública. Se você quiser migrar seus bancos de dados para uma instância na camada de serviço diferentes, pode criar a nova instância, restaurar os bancos de dados com recuperação pontual da instância original e, em seguida, descarte a instância original se não for mais necessária. 
